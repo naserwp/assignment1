@@ -32,8 +32,18 @@ header {
     align-items: center;
     background-position: bottom left;
 }
-header > div {
+/* header > div {
     width: 1600px;
+} */
+.header-main {
+    display: flex;
+    width: 70%;
+}
+.header-main > div {
+    width: 50%;
+}
+.header-content-text p.section-description {
+    padding-left: 156px;
 }
 h1.header-title{
     font-weight: 700;
@@ -196,14 +206,9 @@ h3.subscribe {
 }
 .subscribe-input input[type="submit"] {
     margin-top: 18px;
-    
 }
 
 /* Extra section style  */
-
-/* section.brand {
-    max-width: 1470px;
-} */
 .brand-main {
     display: flex;
     justify-content: center;
